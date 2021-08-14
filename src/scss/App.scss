@@ -1,5 +1,6 @@
 $color_principal: silver;
 $color_secundario: white;
+$color_main: blue;
 
 @mixin nuevo-borde($size) {
   @if ($size > 8) {
@@ -12,7 +13,7 @@ $color_secundario: white;
 }
 
 body {
-  background-color: $color_principal;
+  background-color: $color_main;
   color: $color_secundario;
   @include nuevo-borde(10);
 }
