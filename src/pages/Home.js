@@ -5,9 +5,8 @@ export const Home = () => {
   return (
     <div className="container">
       <h1>Mateistas</h1>
-      <Link to="/Profile/jhonatan" user="kira">jhonatan quirama pino</Link>
-      <Link to="/Profile/diego" user="diego">diego chiapa</Link>
+      <Link to="/Profile/kira">jhonatan quirama pino</Link>
+      <Link to="/Profile/DChiapa">diego chiapa</Link>
     </div>
   );
 };
-

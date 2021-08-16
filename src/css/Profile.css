@@ -1,0 +1,9 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .profile__img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; }
