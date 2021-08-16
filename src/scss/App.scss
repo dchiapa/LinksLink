@@ -1,19 +1,6 @@
-$color_principal: silver;
-$color_secundario: white;
-$color_main: blue;
-
-@mixin nuevo-borde($size) {
-  @if ($size > 8) {
-    border: 2px;
-    border-radius: 5px;
-  } @else {
-    border: 1px;
-    border-radius: 3px;
-  }
-}
+@import "./Variables.scss";
 
 body {
   background-color: $color_main;
   color: $color_secundario;
-  @include nuevo-borde(10);
 }

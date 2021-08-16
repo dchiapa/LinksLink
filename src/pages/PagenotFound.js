@@ -1,9 +1,5 @@
-const PagenotFound = () => {
-    return (
-                <div>
-                    pAGE NO ENCONTRAD
-                </div>
-    )
-}
+export const PagenotFound = () => {
+  return <div>Que estas buscando pibe o boludo</div>;
+};
 
-export default PagenotFound
+
