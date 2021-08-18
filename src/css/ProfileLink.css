@@ -13,6 +13,8 @@
   .profile-link-container:hover {
     transition: all 400ms;
     box-shadow: 0px 0px 30px rgba(117, 98, 224, 0.3); }
+  .profile-link-container:active {
+    box-shadow: none; }
   .profile-link-container img {
     height: 80px;
     width: 80px;

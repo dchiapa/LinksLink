@@ -1,5 +1,3 @@
 export const PagenotFound = () => {
-  return <div>Que estas buscando pibe o boludo</div>;
+  return <div>Que estas buscando boludo</div>;
 };
-
-

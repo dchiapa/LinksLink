@@ -2,8 +2,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .profile__img {
+  padding-top: 1rem;
+  align-items: center;
+  gap: 1rem; }
+  .profile__image {
     border-radius: 50%;
     width: 200px;
     height: 200px; }
+  .profile__link {
+    border: 2px solid #7562E0;
+    margin-bottom: 25px;
+    border-radius: 100px;
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold; }
+    .profile__link:hover {
+      box-shadow: 0px 0px 30px rgba(117, 98, 224, 0.3); }
+    .profile__link:active {
+      box-shadow: none; }
