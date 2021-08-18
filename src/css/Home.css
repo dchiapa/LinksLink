@@ -6,8 +6,7 @@
   align-items: center;
   justify-content: center; }
   .container h1 {
-    margin-top: 100px; }
+    margin-bottom: 30px; }
   .container a {
-    margin: 30px auto;
     text-decoration: none;
-    color: #ffff; }
+    color: #3E4D64; }

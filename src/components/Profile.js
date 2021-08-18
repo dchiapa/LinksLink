@@ -3,6 +3,7 @@ import { Link } from "../components/Link";
 import "../css/Profile.css";
 
 export const Profile = ({ match }) => {
+  
   let userName = match.params.userName;
   let user = users.filter((user) => user.userName === userName);
 
