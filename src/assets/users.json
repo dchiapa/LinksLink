@@ -24,6 +24,19 @@
         { "red": "github", "link": "https://github.com/kira4489" },
         { "red": "gitlab", "link": "https://gitlab.com/quiramapino347" }
       ]
+    },
+    {
+      "id": 3,
+      "userName": "Doro",
+      "img": "https://cdn.alfabetajuega.com/wp-content/uploads/2019/10/dragon-ball-goku-black.jpg",
+      "rrss": [
+        {
+          "red": "linkedin",
+          "link": "https://www.linkedin.com/in/jhonatanquirama/"
+        },
+        { "red": "github", "link": "https://github.com/kira4489" },
+        { "red": "gitlab", "link": "https://gitlab.com/quiramapino347" }
+      ]
     }
   ]
 }
