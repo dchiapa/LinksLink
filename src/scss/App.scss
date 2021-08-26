@@ -1,19 +1,14 @@
-$color_principal: silver;
-$color_secundario: white;
-$color_main: blue;
+@import "./Variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
 
-@mixin nuevo-borde($size) {
-  @if ($size > 8) {
-    border: 2px;
-    border-radius: 5px;
-  } @else {
-    border: 1px;
-    border-radius: 3px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: $color_main;
   color: $color_secundario;
-  @include nuevo-borde(10);
+  font-family: "Poppins", sans-serif;
 }
