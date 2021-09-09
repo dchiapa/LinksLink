@@ -1,0 +1,46 @@
+@import "./Variables.scss";
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+  align-items: center;
+  gap: 1rem;
+
+  &__title {
+  }
+
+  &__image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  &__link {
+    border: 2px solid $color_acento;
+    margin-bottom: 25px;
+    border-radius: 100px;
+    height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    padding: 25px;
+
+    &:visited{
+      color: inherit;
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 30px rgba($color_acento, 0.3);
+    }
+
+    &:active {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.profile-link-container {
+  max-width: 600px;
+  width: 400px;
+  border: 2px solid #7562E0;
+  margin-bottom: 25px;
+  border-radius: 100px;
+  height: 100px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 400ms; }
+  .profile-link-container:hover {
+    transition: all 400ms;
+    box-shadow: 0px 0px 30px rgba(117, 98, 224, 0.3); }
+  .profile-link-container:active {
+    box-shadow: none; }
+  .profile-link-container img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px; }
+  .profile-link-container a {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold; }
